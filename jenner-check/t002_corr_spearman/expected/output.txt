@@ -1,0 +1,14 @@
+                    The CORR Procedure
+                  3 Variables:    n_val   energy_val   depth
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+n_val             18     0.60500    0.14650     10.89000    0.40000     0.83000
+energy_val        18  1500.00000  908.78070  27000.00000  600.00000  2700.00000
+depth             18     0.83333    0.38348     15.00000    0.50000     1.50000
+   Spearman Correlation Coefficients, N = 18
+               n_valenergy_val     depth
+--------  --------  --------  --------
+n_val      1.00000   0.94427   0.30476
+energy_val   0.94427   1.00000   0.00000
+depth      0.30476   0.00000   1.00000

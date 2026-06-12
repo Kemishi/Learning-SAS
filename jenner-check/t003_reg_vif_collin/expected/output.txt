@@ -1,0 +1,30 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                               Dependent Variable: n_val                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   2         0.34360      0.17180    121.28    <.0001
+Error                  15         0.02125      0.00142                    
+Corrected Total        17         0.36485                                 
+
+Root MSE           0.03764    R-Square            0.9418
+Dependent Mean       0.60500    Adj R-Sq            0.9340
+Coeff Var          6.22092
+
+                                       Parameter Estimates                                       
+
+Variable          DF  Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+----------  --------  --------  --------------  --------  --------  ---------  ------------------
+Intercept          1   0.30782         0.02644     11.64    <.0001          .                   .
+energy_val         1   0.00015         0.00001     15.19    <.0001    1.00000             1.00000
+depth              1   0.08200         0.02380      3.44    0.0036    1.00000             1.00000
+
+                     Collinearity Diagnostics                      
+
+  Number  Eigenvalue  Condition Index    Prop 1    Prop 2    Prop 3
+--------  ----------  ---------------  --------  --------  --------
+       1     2.70854          1.00000    0.0146    0.0302    0.0204
+       2     0.21920          3.51519    0.0129    0.7182    0.2763
+       3     0.07226          6.12214    0.9726    0.2516    0.7033
+
