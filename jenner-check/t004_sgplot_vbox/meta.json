@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_sgplot_vbox",
+  "source_file": "Box plots.sas",
+  "source_blob_sha": "1a4b9820de0233018ef9474f56754b433cf7296c",
+  "source_commit": "70d4e85ca6ac4bba62dc3d18427a4d3139e341e5",
+  "tier": "real_data",
+  "notes": "PROC SGPLOT VBOX by Energy Scenario (source step A, the repo's namesake). 'Energy Scenario'n mapped to Energy_Scenario; fill set to lightgray. Inline sample substituted for the XLSX import."
+}
